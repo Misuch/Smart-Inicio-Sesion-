@@ -1,0 +1,25 @@
+
+.hiper-pa{
+    text-decoration:none !important;
+    color: #fcfcfc !important;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.13);
+}
+.btn-card{
+    border-radius: 50px !important;
+}
+.btn-card:hover{
+    background-color: #5e2ced !important;
+}
+.card{
+    border: none !important;
+}
+.btn{
+    color: hsl(0, 0%, 100%) !important;
+}
+.contentp{
+    /*font-size: 4rem;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
