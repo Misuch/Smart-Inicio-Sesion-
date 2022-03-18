@@ -1,21 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0%;
     
 }
 .card img{
-    width: 100%;
+    width: 50vw;
     margin: auto;
     height: 780px;
 }
 .hiper-pa{
-    text-decoration:none !important;
-    color: #fcfcfc !important;
-    text-shadow: 2px 1px rgba(0, 0, 0, 0.13);
+    font-family:"Patrick Hand";
+    text-decoration: none;
+    font-weight: 900;
+    color: #ffffff !important;
+    text-shadow:rgb(0, 0, 0)px 1px rgba(0, 0, 0, 0.13);
+}
+.hiper-pae{
+    font-family:"Patrick Hand";
+    text-decoration: none;
+    font-weight: 900;
+    color: #000000 !important;
+    text-shadow:rgb(0, 0, 0)px 1px rgba(0, 0, 0, 0.13);
 }
 .btn-card{
     
-    background-color: rgba(255, 255, 255, 0.24);
+    background-color: rgba(110, 49, 180, 0.548);
     border-radius: 30px !important;
 }
 .btn-card:hover{
@@ -43,7 +53,7 @@
     z-index: 1000;
 }
 .content-row{
-    width: 100%;
+    width: 100vw;
     display: flex;
 }
 .card-title a{
